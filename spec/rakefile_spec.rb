@@ -120,8 +120,8 @@ describe 'Rakefile' do
       expect(rakefile).to include("desc \"Loads an interactive console.\"")
 
       # Or this.
-      rake_t = `rake -T` # This executes a system command and captures output.
-      expect(rake_t).to match(/rake console\s+# Loads an interactive console/)      
+     # rake_t = `rake -T` # This executes a system command and captures output.
+      #expect(rake_t).to match(/rake console\s+# Loads an interactive console/)      
     end
   end
 
